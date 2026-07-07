@@ -53,7 +53,6 @@ This dashboard is structured as three report pages, each answering one of these 
 | **Payment method correlates with churn** | Net Banking (58%) and UPI (52%) users churn well above card-based auto-pay users (39-42%) |
 | **147 high-value customers are at risk**| Representing **$102.24K** in revenue that prioritized outreach could protect |
 
-Full write-up of insights and recommendations: [`docs/INSIGHTS.md`](docs/INSIGHTS.md)
 
 ---
 
@@ -86,28 +85,6 @@ Key DAX measures: [`docs/DAX_MEASURES.md`](docs/DAX_MEASURES.md)
 - **Self-service controls** — What-If target sliders for churn/retention goals, a dynamic Field Parameter metric selector, and global slicers (Region, Contract Type, Plan Type, Last Login)
 
 ---
-
-## Repository Structure
-
-```
-NovaTel-Customer-Churn-Analysis/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── Novatel_Churn_Analysis.pbip          # Power BI Project entry point
-├── Novatel_Churn_Analysis.Report/       # Report visuals & layout (PBIR format)
-├── Novatel_Churn_Analysis.SemanticModel/# Tables, relationships, DAX measures (TMDL format)
-├── docs/
-│   ├── DATA_DICTIONARY.md
-│   ├── DAX_MEASURES.md
-│   └── INSIGHTS.md
-├── assets/
-│   └── screenshots/
-└── presentations/
-    └── NovaTel_Churn_Stakeholder_Insights.pptx
-```
-
-
 
 ## Roadmap
 
